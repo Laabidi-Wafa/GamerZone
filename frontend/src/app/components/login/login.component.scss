@@ -1,0 +1,36 @@
+mat-form-field {
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 20vw;
+  margin: 0 auto;
+  min-height: 20vh;
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #c084fc;
+  border-radius: 10px;
+}
+btn:hover {
+  background-position: right center; 
+}
+.btn-5 {
+  background-image: linear-gradient(
+    to right,
+    #ccfbf1 0%,
+    #5eead4 51%,
+    #2dd4bf 100%
+  );
+}
