@@ -26,6 +26,7 @@ import { CreateFormationComponent } from './components/create-formation/create-f
 import { AuthInterceptorService } from './services/auth-interceptor.service';
 import { DetailsFormationsComponent } from './components/details-formations/details-formations.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
+import { CoachComponent } from './components/coach/coach.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { FeedbackComponent } from './components/feedback/feedback.component';
     CreateFormationComponent,
     DetailsFormationsComponent,
     FeedbackComponent,
+    CoachComponent,
   ],
   imports: [
     BrowserModule,

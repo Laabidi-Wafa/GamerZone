@@ -44,6 +44,17 @@
         Dashboard</a
       >
     </li>
+    <li>
+      <a
+        class="link"
+        *ngIf="isAuthenticated"
+        routerLinkActive="active-link"
+        style="text-decoration: none"
+        routerLink="/coach"
+      >
+        Coachs
+      </a>
+    </li>
 
     <li>
       <a

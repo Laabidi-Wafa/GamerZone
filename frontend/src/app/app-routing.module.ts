@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
+import { CoachComponent } from './components/coach/coach.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
@@ -29,6 +29,7 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'home', canActivate: [AuthGuard], component: HomeComponent },
   { path: 'feedback', component: FeedbackComponent },
+  { path: 'coach', component: CoachComponent },
   { path: '**', component: Error404Component },
 ];
 
