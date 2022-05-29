@@ -102,7 +102,7 @@ nav li a:hover {
 }
 
 .box {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(228, 189, 189, 0.5);
   margin: 1rem;
   padding: 0.5rem;
   display: flex;
@@ -206,21 +206,21 @@ nav li a:hover {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 20px #e9d5ff;
   border-radius: 10px;
 }
 btn:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center; 
 }
 .btn-5 {
   background-image: linear-gradient(
     to right,
-    #ffecd2 0%,
-    #fcb69f 51%,
-    #ffecd2 100%
+    #ccfbf1 0%,
+    #5eead4 51%,
+    #2dd4bf 100%
   );
 }
+
 
 mat-card {
   margin-bottom: 1em;
@@ -233,13 +233,19 @@ mat-card {
   }
   .formation-place {
     margin-top: 1em;
+   
   }
   .date-of-starting {
     margin-top: 1em;
+
   }
   .date-of-ending {
     margin-top: 1em;
+    
   }
+.color{
+  color: #18181b;
+}
 }
 
 

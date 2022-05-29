@@ -6,17 +6,30 @@
     {{ formation.titre }}
   </div>
   <div class="formation-place">
-    <b style="color: lightcoral">Lieu de la formation </b>
+    <b class="color">Lieu de la formation </b>
+    <br />
+    <br />
     {{ formation.lieu }}
   </div>
   <div class="date-of-starting">
-    <b style="color: lightcoral">Date et heure de début de la formation </b>
+    <b class="color">Date et heure de début de la formation </b>
+    <br />
+    <br />
     {{ formation.dateDeb | date: "dd/MM/yyyy hh:mm" }}
   </div>
   <div class="date-of-ending">
-    <b style="color: lightcoral">Date et heure de fin de la formation </b>
+    <b class="color">Date et heure de fin de la formation </b>
+    <br />
+    <br />
     {{ formation.dateFin | date: "dd/MM/yyyy hh:mm" }}
   </div>
+  <img
+    class="img-responsive"
+    src="assets/aim.png"
+    width="150px"
+    height="150px"
+    alt=""
+  />
   <div class="container">
     <a [routerLink]="['/evaluation']" mat-raised-button class="btn btn-5">
       Postuler
@@ -24,7 +37,7 @@
   </div>
 </mat-card>
 
-<h1>Give-us your feedback</h1>
+<h1>Donnez nous vos feedbacks</h1>
 <div class="item">
   <div class="container">
     <a [routerLink]="['/evaluation']" mat-raised-button class="btn btn-5">
@@ -32,4 +45,3 @@
     </a>
   </div>
 </div>
-
